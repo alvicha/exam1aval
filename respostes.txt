@@ -11,3 +11,5 @@
 9. cat Alumnos.txt | grep [2][0][1[0-9]]
 
 10. cat Alumnos.txt | grep ^J | uniq -iw 7 | awk '{print $1,$2}'
+
+11. cat du.txt | awk '{print $2}' | grep [1][4][2][M-N]
