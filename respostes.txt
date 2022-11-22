@@ -1,1 +1,4 @@
 3. cat Alumnos.txt | grep SI -n | cut -d: -f1 > /home/alumno/examen/si.txt 
+
+5. mv /home/alumno/examen/si.txt /home/alumno/examen/si
+
