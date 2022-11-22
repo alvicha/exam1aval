@@ -9,3 +9,5 @@
 8. sed 's/Vicente/Pepe/' Alumnos.txt2
 
 9. cat Alumnos.txt | grep [2][0][1[0-9]]
+
+10. cat Alumnos.txt | grep ^J | uniq -iw 7 | awk '{print $1,$2}'
