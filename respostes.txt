@@ -6,4 +6,6 @@
 
 7. cat Alumnos.txt | grep González | uniq -iw 7 | wc -l
 
-8. sed 's/Vicente/Pepe/' Alumnos.txt
+8. sed 's/Vicente/Pepe/' Alumnos.txt2
+
+9. cat Alumnos.txt | grep [2][0][1[0-9]]
