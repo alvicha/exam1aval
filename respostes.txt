@@ -2,3 +2,4 @@
 
 5. mv /home/alumno/examen/si.txt /home/alumno/examen/si
 
+6. cat Alumnos.txt | awk '{print $1,$2,"-",$5}' | tail -n +2
